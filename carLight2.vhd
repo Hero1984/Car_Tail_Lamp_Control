@@ -26,14 +26,15 @@ architecture Behavioral of carLight2 is
     
 begin
     
-    --clk for simulation 
+    --clk for simulation
+    --uncomment if you perform simulation  
 --    process(clk_signal)
 --    begin
 --    clk_signal <= not clk_signal after CLK_CYCLE / 2;
 --    end process;
     
-    --initialize the clock
     --slow down the clock to 0.25s
+    --comment out if you do simulation
     scan_clk_gen : process (clk) is
         -- T = 1/f,  f=100MHz, t=0.25=nT, n=10^8
         variable count : integer range 0 to 15000000 ;  

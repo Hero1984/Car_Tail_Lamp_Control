@@ -30,7 +30,7 @@ architecture tb of carLight2_tb is
     signal R3 : STD_LOGIC;           
     signal clk : STD_LOGIC;
     
-    constant clock_period: time := 20 ns;
+    constant clock_period: time := 10 ns;
     signal stop_the_clock: boolean;
 
 begin
@@ -45,15 +45,6 @@ begin
            R2=>R2, 
            R3=>R3, 
            clk=>clk);
-           
---    clocking: process
---    begin
---    while not stop_the_clock loop
---      CLK <= '0', '1' after clock_period / 2; --10ns => T = 1/100MHz 
---      wait for clock_period;
---    end loop;
---    wait;
---    end process;
     
     
     
