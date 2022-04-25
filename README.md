@@ -11,7 +11,7 @@ An in-depth paragraph about your project and overview of use.
 
 * Create new project on Vivado with Basys3 Board selected.
 * Create files for each design, simulation, Constraint.
-* Original code has commented out clock for simulation. If you would like to do simulation,<\n>
+* Original code has commented out clock for simulation. If you would like to do simulation,</n>
 make sure uncomment clock and comment out slow clock.
 
 ### Dependencies
